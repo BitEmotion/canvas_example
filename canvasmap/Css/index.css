@@ -1,0 +1,123 @@
+div.container{
+    width: 640px;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1.2em;
+    padding-top:1em;
+    border:1px solid #289F60;
+    border-top:none;
+
+}
+
+body{
+    background-color:rgb(65, 211, 255);
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+h1{
+    text-align:center;
+    padding-top:0;
+    margin-top:0
+}
+
+h3{
+    text-align:left;
+    font-size: 16pt;
+    margin-bottom: 0.1em;
+}
+
+ul{
+    margin-top: 0.5em;
+}
+
+span.tips{
+    font-size:8pt;
+    color:#555;
+}
+
+div{
+    margin:0;
+    padding:0;
+}
+
+div.controls{
+    float: right;
+}
+
+canvas{
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+input{
+    padding: 0.3em;
+    text-align:center;
+    min-width: 220px;
+}
+
+div.prog{
+    width: 220px;
+    -moz-box-shadow:    inset 0px 0px 10px #888, 0px 0px 3px #888;
+    -webkit-box-shadow: inset 0px 0px 10px #888, 0px 0px 3px #888;
+    box-shadow:         inset 0px 0px 10px #888, 0px 0px 3px #888;
+    
+    border: 1px solid #888;
+    border-radius: 4px;
+    -moz-border-radius: 8px;
+    margin-bottom: 1em;
+    margin-top:
+     0.2em;
+}
+div.prog > div{
+    -webkit-transition: width 0.3s ease-out;
+    -moz-transition:    width 0.3s ease-out;
+    -o-transition:      width 0.3s ease-out;
+    -ms-transition:     width 0.3s ease-out;
+    transition:         width 0.3s ease-out;
+    margin: 3px;
+    background-color: #1AF01A;
+    border: 1px solid #13AF13;
+    -moz-box-shadow:    inset 0px 0px 6px #13AF13;
+    -webkit-box-shadow: inset 0px 0px 6px #13AF13;
+    box-shadow:         inset 0px 0px 6px #13AF13;
+    height: 14px;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+}
+
+div.indic{
+    font-size:8pt;
+    display:inline-block;
+    text-align:center;
+}
+
+div.indic > span{
+    font-size:14pt;
+    font-weight:bold;
+}
+
+div#losetext{
+    opacity:0;
+    padding-top: 180px;
+    z-index: 100;
+    color:black;
+    text-shadow: 0.05em  0.05em 0.05em white, 
+            -0.05em  0.05em 0.05em white, 
+            -0.05em -0.05em 0.05em white,
+            0.05em -0.05em 0.05em white;
+    position:absolute;
+    font-size: 24pt;
+    font-weight:bold;
+    text-align:center;
+    width: 400px;
+    visibility: hidden;
+    -webkit-transition: opacity 2s ease;
+    -moz-transition:    opacity 2s ease;
+    -o-transition:      opacity 2s ease;
+    -ms-transition:     opacity 2s ease;
+    transition:         opacity 2s ease;
+}
